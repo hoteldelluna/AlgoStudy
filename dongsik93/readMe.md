@@ -24,5 +24,5 @@
 
 
 
-[내 블로그 !!](dongsik93.github.io) :heart_eyes:
+[내 블로그 !!](https://dongsik93.github.io/) :heart_eyes:
 
