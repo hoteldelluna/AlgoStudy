@@ -2,6 +2,10 @@
 
 <img src="https://img.shields.io/badge/language-python-blue">
 
+### 참고사항
+
+<a href=""></a>
+
 ### 규칙
 
 1. **`master` branch는 건드리지 않습니다.**
