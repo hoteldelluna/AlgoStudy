@@ -20,7 +20,8 @@ brute_force/p2503.숫자 야구
 
 ### 이해는 했지만 다시 풀어볼 문제
 
-bfs&dfs/p1012. 유기총 배추 -> DFS로도 풀어보기
+bfs&dfs/p1012. 유기농 배추 -> DFS로도 풀어보기
 simulation/p1057. 토너먼트
 brute_force/p1182. 부분수열의 합
-simulation/p15686. 치킨 배달 `combinations` -> 조합 공식으로 변경 필요
+simulation/p15686. 치킨 배달
+brute_force/16922. 로마 숫자 만들기
