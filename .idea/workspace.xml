@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b733f913-2b23-4bd0-9140-d40b323e3767" name="Default Changelist" comment="" />
+    <list default="true" id="b733f913-2b23-4bd0-9140-d40b323e3767" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Lagom92/BEAK/15651.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lagom92/BEAK/15651.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,52 +21,43 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="2" />
-          <entry key="py" value="7" />
+          <entry key="py" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="2" />
-          <entry key="Python" value="7" />
+          <entry key="Python" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="593" />
+          <entry key="py" value="795" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="593" />
+          <entry key="Python" value="795" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lagom92/BEAK/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lagom92/BEAK/15649.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="3" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lagom92/BEAK/15651.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="20" column="10" lean-forward="true" selection-start-line="6" selection-end-line="20" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lagom92/BEAK/15650.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="475">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -86,6 +79,7 @@
       <list>
         <option value="$PROJECT_DIR$/Lagom92/BEAK/15686.py" />
         <option value="$PROJECT_DIR$/Lagom92/BEAK/15650.py" />
+        <option value="$PROJECT_DIR$/Lagom92/BEAK/15651.py" />
       </list>
     </option>
   </component>
@@ -144,7 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.15651">
     <configuration name="15650" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AlgoStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,8 +160,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="15651" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AlgoStudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lagom92/BEAK" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lagom92/BEAK/15651.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.15650" />
+      <item itemvalue="Python.15651" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.15651" />
         <item itemvalue="Python.15650" />
       </list>
     </recent_temporary>
@@ -199,7 +219,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32866043" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39875388" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -237,6 +257,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Lagom92/BEAK/15649.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Lagom92/BEAK/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -244,17 +271,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lagom92/BEAK/15649.py">
+    <entry file="file://$PROJECT_DIR$/Lagom92/BEAK/15650.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="33" />
+        <state relative-caret-position="475">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lagom92/BEAK/15650.py">
+    <entry file="file://$PROJECT_DIR$/Lagom92/BEAK/15651.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="323">
+          <caret line="20" column="10" lean-forward="true" selection-start-line="6" selection-end-line="20" selection-end-column="10" />
         </state>
       </provider>
     </entry>
