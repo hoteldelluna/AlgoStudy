@@ -2,11 +2,7 @@
 [시뮬레이션_완전탐색&조합]
 1. 집과 치킨의 거리를 구해서 값들을 이중리스트에 차곡 차곡 넣어줌
 2. 주어진 숫자만큼 치킨집만 영업을 해야하기에 조합을 이용하여 최소값을 찾아줌
-
-조합 부분을 itertools 사용하지 않고 풀기!
 """
-
-import itertools
 
 def check(i, j, home_cnt):
     for x in range(N):
@@ -21,6 +17,24 @@ def check(i, j, home_cnt):
                 distance_list[chicken_cnt][home_cnt] = X + Y
                 home_cnt += 1
 
+def nCr(n, r, min_value):
+    if r == 0:
+        value_list = [987654321] * home
+        for i in box:
+            sum_value = 0
+            for j in range(home):
+                if distance_list[i][j] < value_list[j]:
+                    value_list[j] = distance_list[i][j]
+            for k in value_list:
+                sum_value += k
+        min_value = min_value if min_value < sum_value else sum_value
+        min_list.append(min_value)
+    elif n < r:
+        return
+    else:
+        box[r-1] = matrix[n-1]
+        nCr(n-1, r-1, min_value)
+        nCr(n-1, r, min_value)
 
 N, M = map(int, input().split())
 arr = [0] * N
@@ -34,7 +48,6 @@ for t in range(N):
         elif i == 2:
             chicken += 1
 
-
 distance_list = [[0] * home for i in range(chicken)]
 
 home_cnt = 0
@@ -45,18 +58,10 @@ for i in range(N):
             distance = check(i, j, home_cnt)
             chicken_cnt += 1
 
-combination = itertools.combinations(range(0, chicken), M)
+box = [0] * M
+matrix = [i for i in range(chicken)]
+min_value = 987654321
+min_list = []
+nCr(chicken, M, min_value)
 
-min_value = 9999999999999999
-for com in list(combination):
-    value_list = [9999999] * home
-    for i in com:
-        sum_value = 0
-        for j in range(home):
-            if distance_list[i][j] < value_list[j]:
-                value_list[j] = distance_list[i][j]
-        for k in value_list:
-            sum_value += k
-    min_value = min_value if min_value < sum_value else sum_value
-
-print(min_value)
+print(min(min_list))
