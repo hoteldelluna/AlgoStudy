@@ -1,6 +1,5 @@
-# unpacking
+a = [1,2]
 
-l = [1, 2, 3]
+b = [[2, 3], [4, 5]]
 
-print(l)
-print(*l)
+if a not in b:
