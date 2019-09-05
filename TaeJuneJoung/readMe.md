@@ -14,6 +14,6 @@
 
 
 
-### SWAD
+### SWEA
 
 > SW Academy
