@@ -14,17 +14,8 @@ def solution(N):
             base_idx = idx
     return maxV
 
-
 """
-다른 사람 소스
-1]
-def solution(N):
-  return len(max(bin(N)[2:].strip('0').strip('1').split('1'))) # Big-O : N
-
-2]
-def solution(N):
-  return len(max(format(N, 'b').strip('0').split('1'))) # Big-O : N 
-
-
-참고자료 : https://wayhome25.github.io/algorithm/2017/04/24/binarygap/
+다른 방법]
+def result(N):
+	return max(map(len, str(bin(N))[2:].strip('0').strip('1').split('1')))
 """

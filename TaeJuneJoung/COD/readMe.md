@@ -7,3 +7,4 @@
 
 ## 다시 풀어볼 문제
 - lv4.MaxCounters
+- lv7.Fish
