@@ -25,3 +25,4 @@ simulation/p1057. 토너먼트
 brute_force/p1182. 부분수열의 합
 simulation/p15686. 치킨 배달
 brute_force/16922. 로마 숫자 만들기
+math/p2869. 달팽이는 올라가고 싶다
