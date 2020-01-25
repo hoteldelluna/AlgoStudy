@@ -4,17 +4,11 @@
 
 <br/>
 
-### Directory Structure
-
-**bfs&dfs** : 그래프 탐색[BFS/DFS]<br/>
-**brute_force** : 완전 탐색<br/>
-**simulation** : 시뮬레이션<br/>
-
-<br/>
 
 ### 이해하지 못한 문제
 
 brute_force/p2503.숫자 야구
+dp/p1463.1로 만들기
 
 <br/>
 
